@@ -1,0 +1,121 @@
+.container {
+  padding: 0px;
+  width: auto;
+  max-width: max-content;
+  margin: 0 auto;
+}
+
+.align-center {
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+}
+
+form {
+  width: 900px;
+  margin: 30px auto;
+  margin-bottom: 20px;
+}
+
+.counter {
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+button.align-center {
+  margin-top: 20px;
+}
+
+.main {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+}
+.wrapper {
+  margin: 0 auto;
+}
+
+.cards {
+  width: 850px;
+  flex-grow: 0;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.aside {
+  display: block;
+  width: 540px;
+  padding-left: 50px;
+}
+
+.aside.hide {
+  display: none;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-item {
+  display: inline-block;
+  padding: 0 7px;
+}
+
+.list-title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+a {
+  cursor: pointer;
+  color: rgb(33, 37, 41);
+  text-decoration: none;
+  font-size: 16px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.pagination {
+  /* flex-wrap: wrap; */
+  overflow-x: auto;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.figure {
+  position: relative;
+}
+
+.figure-caption {
+  font-size: 2.875em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.figure-caption a {
+  text-decoration: none;
+}
+
+.btn-close {
+  font-size: 25px;
+  opacity: 0.7;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.modal {
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: min-content;
+}
